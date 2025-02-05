@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: accessing an element in a vector using an index that is out of bounds.  The `get()` method returns an `Option`, which should be handled to prevent panics.  The solution shows how to properly handle this using pattern matching.
